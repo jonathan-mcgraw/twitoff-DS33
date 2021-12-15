@@ -1,9 +1,0 @@
-flask
-jinja2
-flask-sqlalchemy
-tweepy
-spacy
-python-dotenv
-scikit-learn
-numpy
-gunicorn
