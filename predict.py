@@ -1,7 +1,7 @@
-from .models import User
+from models import User
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from .twitter import vectorize_tweet
+from twitter import vectorize_tweet
 
 
 def predict_user(user0_name, user1_name, hypo_tweet_text):
