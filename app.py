@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request
 from werkzeug.datastructures import UpdateDictMixin
-from models import DB, User, Tweet
-from twitter import add_or_update_user, get_all_usernames
-from predict import predict_user
+from .models import DB, User, Tweet
+from .twitter import add_or_update_user, get_all_usernames
+from .predict import predict_user
 
 
 def create_app():

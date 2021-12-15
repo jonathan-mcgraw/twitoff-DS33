@@ -3,7 +3,7 @@
 from os import getenv
 import tweepy
 import spacy
-from models import DB, Tweet, User
+from .models import DB, Tweet, User
 
 # Get API keys from .env
 KEY = getenv('TWITTER_API_KEY')
